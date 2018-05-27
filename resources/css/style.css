@@ -20,6 +20,8 @@ header{
   width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
+  z-index: 5;
+  background-color: black;
 }
 
 #logo{
@@ -27,7 +29,28 @@ header{
   margin: 9px 0 9px 10px;
 }
 
+span{
+  margin: 0 15px;
+}
 a{
   color: seashell;
   text-decoration: underline;
+}
+
+/* Styling for main container */
+
+.container{
+  display: flex;
+}
+
+#main_container{
+  position: relative;
+  top: 69px;
+}
+
+#mission{
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/Background.jpg")
 }
